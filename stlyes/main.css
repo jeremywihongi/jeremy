@@ -158,7 +158,7 @@ header{
     margin-left: 20px;
     margin-top: 10px;
     z-index: 5;
-    position: relative;
+/*    position: relative;*/
 }
 
 .title h1:nth-of-type(2){
@@ -210,6 +210,7 @@ header{
     
 }
 
+/*
 .menu{
     margin-top: 110px;
     margin-left: 30px;
@@ -223,7 +224,9 @@ header{
     
     
 }
+*/
 
+/*
 .menu h2:nth-of-type(3){
     position: fixed;
     top: 16px;
@@ -232,23 +235,13 @@ header{
     font-size: 60px
 
 }
+*/
 
 
-.menu indent{
-    margin-left: 50px;
-}
-
-.menu a{
-    float: left;
-    text-decoration: underline;
-}
 
 
 .main{
-/*
-    margin-top: 293px;
     overflow: hidden;
-*/
 }
 
 

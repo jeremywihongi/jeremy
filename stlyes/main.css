@@ -185,7 +185,7 @@ header{
     font-weight: 400;
     position: fixed;
     top: 10px;
-    right: 30px;
+    right: 20px;
     margin-left: 0px;
 }
 
@@ -193,7 +193,7 @@ header{
     border: 2px solid #000;
     border-color: #fff;
     border-width: 0 0 2px;
-    
+
 }
 
 .sub2:hover{

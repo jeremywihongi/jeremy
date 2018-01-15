@@ -159,16 +159,14 @@ p {
  
 
 header{
-    position: fixed;
-    z-index: 5;
+    position: relative;
 }
 
 .title{
     width: 1300px;
     margin-left: 22px;
     margin-top: 18px;
-    z-index: 5;
-/*    position: relative;*/
+    position: relative;
 }
 
 .title h1:nth-of-type(2){
@@ -293,7 +291,7 @@ html, body{
     width: calc(100% - 20px);
     position: relative;
     left: 50%;
-    top: 150px;
+    top: 50px;
     bottom: 110px;
     transform: translate(-50%,0%);
     margin-right: 30px;

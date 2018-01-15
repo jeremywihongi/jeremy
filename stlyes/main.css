@@ -118,6 +118,11 @@ h2 {
 
 h3 {
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    letter-spacing: -0.00em;
+    color: #fff;
     }
 
 h4 {
@@ -145,11 +150,11 @@ h6 {
 p {
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: -0.05px;
-    bottom: 10px;
+    color: #fff;
 }
  
 
@@ -160,7 +165,7 @@ header{
 
 .title{
     width: 1300px;
-    margin-left: 20px;
+    margin-left: 22px;
     margin-top: 18px;
     z-index: 5;
 /*    position: relative;*/
@@ -190,8 +195,8 @@ header{
     font-weight: 400;
     position: fixed;
     top: 18px;
-    right: 20px;
-    margin-left: 0px;
+    right: 26px;
+    margin-left: px;
 }
 
 .sub1 a:hover{
@@ -215,6 +220,13 @@ header{
     
 }
 
+.para{
+position: relative;
+width: 800px;
+margin-left: 22px;
+padding-top: 50px;
+
+}
 /*
 .menu{
     margin-top: 110px;
@@ -268,7 +280,7 @@ html, body{
     left: 0px;
     top: 0px;
     width: 100%;
-    background: black;
+  
     height: 110px;
     z-index: 3
         

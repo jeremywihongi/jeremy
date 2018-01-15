@@ -1,12 +1,27 @@
 @media screen and (min-width: 0px) and (max-width: 412px) { 
     
+/*
     .sub{
     opacity: 0;
     }
+*/
+    .sub {
+    position: relative;
+    font-size: 27px;
+    line-height: 29px;
+    margin-left: 49px;
+    top: 4px;
+    }
     
-     h1 {
+    h2 {
+    position: relative;
+    font-size: 27px;
+    line-height: 29px;
+    }
+    
+    h1 {
         font-size: 27px;
-        line-height: 29px;
+        line-height: 30px;
     }
 /*
      .title .sub{
@@ -18,13 +33,29 @@
 
 @media screen and (min-width: 413px) and (max-width: 700px) { 
     
+/*
     .sub{
     opacity: 0;
     }   
+*/
+     .sub {
+    position: relative;
+    font-size: 27px;
+    line-height: 29px;
+    margin-left: 49px;
+    top: 4px;
+    }
+    
+    h2 {
+    position: relative;
+    font-size: 27px;
+    line-height: 29px;
+    
+    }
     
     h1 {
         font-size: 27px;
-        line-height: 29px;
+        line-height: 30px;
     }
 
     

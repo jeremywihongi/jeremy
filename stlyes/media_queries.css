@@ -1,5 +1,9 @@
 @media screen and (min-width: 0px) and (max-width: 412px) { 
     
+    .title{
+    width: 90%;
+}
+    
     .sub {
     position: relative;
     margin-left: 49px;
@@ -20,6 +24,10 @@
 }
 
 @media screen and (min-width: 413px) and (max-width: 700px) { 
+    
+    .title{
+    width: 90%;
+}
     
      .sub {
     position: relative;

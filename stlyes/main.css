@@ -290,7 +290,7 @@ html, body{
 
 
 .gallery img{
-    width: calc(100% - 60px);
+    width: calc(100% - 20px);
     position: relative;
     left: 50%;
     top: 150px;

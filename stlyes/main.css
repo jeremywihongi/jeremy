@@ -1,0 +1,375 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
+body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog,
+div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form,
+header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark,
+menu, meter, nav, object, ol, output, p, pre, progress, q, rp, rt, ruby, s,
+samp, section, small, span, strike, strong, sub, summary, sup, table, tbody,
+td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    overflow-x: hidden;
+    font-family: "untitled sans", "Helvetica", "Arial", sans-serif;
+    background-color: black
+}
+
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section {
+    display: block
+}
+
+b, strong {
+    font-weight: 700
+}
+
+ol, ul {
+    list-style: none
+}
+
+li {
+    display: list-item;
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption, td, th {
+    font-weight: 400;
+    vertical-align: top;
+    text-align: left
+}
+
+q {
+    quotes: none
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+q:after, q:before {
+    content: '';
+    content: none
+}
+
+small, sub, sup {
+    font-size: 70%;
+}
+
+sub, sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.35em;
+    font-size: 0.75em;
+}
+
+svg {
+    overflow: hidden;
+}
+
+input, button, submit { 
+    border:none; } 
+
+h1 {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.0em;
+    line-height: 33px;
+    font-size: 30px;
+    color: #fff;
+}
+
+h2 {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: -0.02em;
+    
+}
+
+h3 {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+h4 {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 13em;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 13em;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+
+h6 {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #999;
+    font-weight: 400;
+    font-size: 11em;
+    line-height: 1.25;
+}
+ 
+p {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.05px;
+    bottom: 10px;
+}
+ 
+
+header{
+    position: fixed;
+    z-index: 5;
+}
+
+.title{
+    width: 1300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    z-index: 5;
+    position: relative;
+}
+
+.title h1:nth-of-type(2){
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    margin-left: 0px;
+}
+
+.title h1:nth-of-type(3){
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    margin-left: 0px;
+}
+
+.title indent{
+    margin-left: 80px;
+}
+
+.sub{
+    font-size: 30px;
+    line-height: 1.3em;
+    font-weight: 400;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    margin-left: 0px;
+}
+
+.sub1 a:hover{
+    border: 2px solid #000;
+    border-color: #fff;
+    border-width: 0 0 2px;
+    
+}
+
+.sub2:hover{
+    border: 2px solid #000;
+    border-color: #fff;
+    border-width: 0 0 2px;
+    
+}
+
+.sub3:hover{
+    border: 2px solid #000;
+    border-color: #fff;
+    border-width: 0 0 2px;
+    
+}
+
+.menu{
+    margin-top: 110px;
+    margin-left: 30px;
+    color: #fff;
+    padding-bottom: 30px
+}
+
+.menu h2{
+    position: relative;
+    clear: both;
+    
+    
+}
+
+.menu h2:nth-of-type(3){
+    position: fixed;
+    top: 16px;
+    right: 30px;
+    margin-left: 0px;
+    font-size: 60px
+
+}
+
+
+.menu indent{
+    margin-left: 50px;
+}
+
+.menu a{
+    float: left;
+    text-decoration: underline;
+}
+
+
+.main{
+/*
+    margin-top: 293px;
+    overflow: hidden;
+*/
+}
+
+
+    
+}
+
+.gallery {
+    width: calc(100% - 545px);
+    margin-left: 100px;
+    
+}
+
+.background {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background: black;
+    height: 110px;
+    z-index: 3
+    
+}
+
+
+
+.gallery img{
+    width: calc(100% - 60px);
+    position: relative;
+    left: 50%;
+    top: 150px;
+    bottom: 110px;
+    transform: translate(-50%,0%);
+    margin-right: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.gallery:nth-of-type(1){
+    margin-top: 0px;
+}
+
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    cursor: move;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+.carousel:active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+}
+
+.carousel-cell {
+    background: #000;
+    /*
+    border: 2px solid #a89778;
+    border-width: 0px 0px 0px 1px; 
+*/
+    overflow: hidden;
+}
+
+.carousel .carousel-cell {
+}
+
+.carousel-cell img {
+    display: block;
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+    max-height: calc(100vh - 60px);
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+}
+
+
+@media screen and ( min-width: 768px) {
+    .carousel-cell img {
+        height: 100%;
+    }
+    
+}
+
+
+.carousel-cell.is-selected img {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 1;
+    transition: .6s ease;
+    -webkit-transition: .6s ease;
+    -moz-transition: .6s ease;
+}
+
+
+
+.flickity-page-dots {
+    bottom: 40px;
+    right: 40px;
+    position: absolute;
+    z-index: 10;
+}
+
+.flickity-page-dots .dot {
+    float: left;
+    width: 8px;
+    margin-top: 15px;
+    margin-left: 5px;
+    height: 8px;
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 100px;
+    border: 1px solid #777;
+    border-width: 1px 1px 1px 1px;
+}
+
+.flickity-page-dots .dot.is-selected {
+    background: #a89778;
+}

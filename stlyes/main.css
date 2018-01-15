@@ -21,6 +21,7 @@ body, html {
     overflow-x: hidden;
     font-family: "untitled sans", "Helvetica", "Arial", sans-serif;
     background-color: black
+    
 }
 
 
@@ -87,9 +88,11 @@ sup {
     font-size: 0.75em;
 }
 
+/*
 svg {
     overflow: hidden;
 }
+*/
 
 input, button, submit { 
     border:none; } 
@@ -237,12 +240,16 @@ header{
 }
 */
 
+html, body{
+    height: 100%
+}
 
 
-
+/*
 .main{
     overflow: hidden;
 }
+*/
 
 
     
@@ -262,6 +269,7 @@ header{
     background: black;
     height: 110px;
     z-index: 3
+        
     
 }
 

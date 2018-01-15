@@ -161,7 +161,7 @@ header{
 .title{
     width: 1300px;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 18px;
     z-index: 5;
 /*    position: relative;*/
 }
@@ -189,7 +189,7 @@ header{
     line-height: 1.3em;
     font-weight: 400;
     position: fixed;
-    top: 10px;
+    top: 18px;
     right: 20px;
     margin-left: 0px;
 }

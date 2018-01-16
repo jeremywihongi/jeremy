@@ -98,6 +98,7 @@ h1 {
     line-height: 33px;
     font-size: 30px;
     color: #fff;
+      padding-bottom: 30px;
 }
 
 h2 {
@@ -107,6 +108,7 @@ h2 {
     line-height: 33px;
     letter-spacing: -0.00em;
     color: #fff;
+    padding-bottom: 30px;
     
 }
 
@@ -170,6 +172,14 @@ header{
     margin-left: 0px;
 }
 */
+
+#element::-webkit-scrollbar {
+    display: none
+}
+
+::-webkit-scrollbar {
+    display: none
+}
 
 
 .title indent{
@@ -246,6 +256,8 @@ html, body{
 }
 
 
+
+
 .gallery{
 position: relative;
 
@@ -267,7 +279,7 @@ position: relative;
     width: calc(100% - 20px);
     position: relative;
     left: 50%;
-    top: 50px;
+    top: 20px;
     bottom: 110px;
     transform: translate(-50%,0%);
     padding-bottom: 30px;
@@ -278,5 +290,24 @@ position: relative;
     margin-top: 0px;
 }
 
+.col-10 {
+        width: calc(100% - 40px);
+        left: 20px
+        
+    }
 
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: px;
+    height: 0
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%
+
+}
 

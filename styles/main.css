@@ -18,11 +18,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body, html {
-    background-color: black
-    
+    background-color: black   
     
 }
-
 
 
 article, aside, details, figcaption, figure, footer, header, hgroup,
@@ -94,29 +92,27 @@ input, button, submit {
 h1 {
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
-    letter-spacing: -0.0em;
-    line-height: 33px;
-    font-size: 30px;
+    letter-spacing: -0.02em;
+    line-height: 42px;
+    font-size: 40px;
     color: #fff;
-      padding-bottom: 30px;
 }
 
 h2 {
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
-    font-size: 30px;
-    line-height: 33px;
-    letter-spacing: -0.00em;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.02em;
     color: #fff;
-    padding-bottom: 30px;
     
 }
 
 h3 {
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
-    font-size: 25px;
-    line-height: 28px;
+    font-size: 12px;
+    line-height: 14px;
     letter-spacing: -0.00em;
     color: #fff;
     }
@@ -153,37 +149,26 @@ p {
     color: #fff;
 }
  
-
 header{
     position: relative;
 }
 
 .title{
-    margin-left: 22px;
-    margin-top: 18px;
+    margin-left: 25px;
+    margin-top: 20px;
     position: relative;
+    width: 20
 }
 
-/*
-.title h1:nth-of-type(2){
-    position: fixed;
-    top: 10px;
-    right: 20px;
+
+.caption indent{
     margin-left: 0px;
 }
-*/
 
-#element::-webkit-scrollbar {
-    display: none
-}
-
-::-webkit-scrollbar {
-    display: none
-}
-
-
-.title indent{
-    margin-left: 80px;
+.caption h3{
+    position: relative;
+    margin-left: 20px;
+    width: 50%
 }
 
 .sub{
@@ -192,122 +177,92 @@ header{
     font-weight: 400;
     position: absolute;
     top: 0px;
-    right: 26px;
-    margin-left: 0px;
+    right: 25px;
+    margin-left: 20px;
+}
+
+.sub1 a{
+    border: 2px solid #000;
+    border-color: #fff;
+    border-width: 0 0 0px;
 }
 
 .sub1 a:hover{
-    border: 2px solid #000;
-    border-color: #fff;
     border-width: 0 0 2px;
-
 }
 
-.sub2:hover{
-    border: 2px solid #000;
-    border-color: #fff;
-    border-width: 0 0 2px;
-    
-}
-
-.sub3:hover{
-    border: 2px solid #000;
-    border-color: #fff;
-    border-width: 0 0 2px;
-    
-}
-
-.para{
-position: relative;
-width: 800px;
-margin-left: 22px;
-padding-top: 50px;
-
-}
-/*
 .menu{
-    margin-top: 110px;
-    margin-left: 30px;
-    color: #fff;
-    padding-bottom: 30px
-}
-
-.menu h2{
-    position: relative;
-    clear: both;
-    
-    
-}
-*/
-
-/*
-.menu h2:nth-of-type(3){
-    position: fixed;
-    top: 16px;
-    right: 30px;
+    margin-top: 50px;
     margin-left: 0px;
-    font-size: 60px
 
 }
-*/
+
+.menu h3{
+    float: left;
+    padding-bottom: 20px;
+}
+
+.menu h3:nth-of-type(1){
+    padding-right: 35px;
+}
+
+.menu h3:nth-of-type(1){
+    float: left;
+}
+
+.menu h3:nth-of-type(2){
+    padding-right: 35px;
+}
+
+.menu h3:nth-of-type(2){
+    float: left;
+}
+
+.menu h3:nth-of-type(3){
+    padding-right: 35px;
+}
+
+
+
+.menu indent{
+    margin-left: 25px;
+}
+
+.menu a{
+    text-decoration: underline;
+}
+
+.contentwrapper{
+    padding: 25px 25px 25px 25px;
+}
+
+.main-carousel{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top: 17px;
+}
+
+.carousel-cell{
+    width: 100%;
+    position: relative;
+}
+
+.carousel-cell img{
+    display: block;
+    height: 100%;
+}
+
+
+.main-carousel img {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
 
 html, body{
     height: 100%
 }
-
-
-
-
-.gallery{
-position: relative;
-
-}
-
-
-    
-}
-
-.gallery {
-    width: calc(100% - 545px);
-    margin-left: 100px;
-    
-}
-
-
-
-.gallery img{
-    width: calc(100% - 20px);
-    position: relative;
-    left: 50%;
-    top: 20px;
-    bottom: 110px;
-    transform: translate(-50%,0%);
-    padding-bottom: 30px;
-    
-}
-
-.gallery:nth-of-type(1){
-    margin-top: 0px;
-}
-
-.col-10 {
-        width: calc(100% - 40px);
-        left: 20px
-        
-    }
-
-.videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: px;
-    height: 0
-}
-
-.videoWrapper iframe {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 100%
-
-}
-

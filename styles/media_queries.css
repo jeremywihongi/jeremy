@@ -28,6 +28,10 @@
         position: relative
     }
     
+    .contentwrapper{
+    padding: 25px 25px 25px 25px;
+}
+    
 }
 
 @media screen and (min-width: 413px) and (max-width: 659px) { 
@@ -60,6 +64,10 @@
         line-height: 24px;
         position: relative
     }
+    
+      .contentwrapper{
+    padding: 25px 25px 25px 25px;
+}
 
 }
 

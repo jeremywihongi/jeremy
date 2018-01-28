@@ -90,26 +90,26 @@ input, button, submit {
     border:none; } 
 
 h1 {
-    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "favorit", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
     letter-spacing: -0.02em;
-    line-height: 42px;
+    line-height: 44px;
     font-size: 40px;
     color: #fff;
 }
 
 h2 {
-    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "favorit", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
     font-size: 40px;
-    line-height: 42px;
+    line-height: 44px;
     letter-spacing: -0.02em;
     color: #fff;
     
 }
 
 h3 {
-    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "favorit", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -160,6 +160,16 @@ header{
     width: 20
 }
 
+.title1 a{
+    border: 2px solid #000;
+    border-color: #fff;
+    border-width: 0 0 0px;
+}
+
+.title1 a:hover{
+    border-width: 0 0 2px;
+}
+
 
 .caption indent{
     margin-left: 0px;
@@ -188,6 +198,26 @@ header{
 }
 
 .sub1 a:hover{
+    border-width: 0 0 2px;
+}
+
+.mob{
+    font-size: 30px;
+    line-height: 1.3em;
+    font-weight: 400;
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    margin-left: 20px;
+}
+
+.mob1 a{
+    border: 2px solid #000;
+    border-color: #fff;
+    border-width: 0 0 0px;
+}
+
+.mob1 a:hover{
     border-width: 0 0 2px;
 }
 

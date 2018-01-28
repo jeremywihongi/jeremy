@@ -4,7 +4,14 @@
     width: 90%;
 }
     
-    .sub {
+     .sub {
+    position: relative;
+    margin-left: 49px;
+    top: 4px;
+    display: none;
+    }
+    
+    .mob {
     position: relative;
     margin-left: 49px;
     top: 4px;
@@ -12,24 +19,31 @@
     
     h2 {
     font-size: 20px;
-    line-height: 19px;
+    line-height: 23px;
     }
     
     h1 {
         font-size: 20px;
-        line-height: 24px;
+        line-height: 23px;
         position: relative
     }
     
 }
 
-@media screen and (min-width: 413px) and (max-width: 599px) { 
+@media screen and (min-width: 413px) and (max-width: 659px) { 
     
     .title{
     width: 90%;
 }
     
      .sub {
+    position: relative;
+    margin-left: 49px;
+    top: 4px;
+    display: none;
+    }
+    
+    .mob {
     position: relative;
     margin-left: 49px;
     top: 4px;
@@ -49,7 +63,7 @@
 
 }
 
-@media screen and (min-width: 600px) and (max-width: 700px) { 
+@media screen and (min-width: 660px) and (max-width: 794px) { 
     
        .title{
     width: 90%;
@@ -60,20 +74,27 @@
     margin-left: 49px;
     }
     
+    .mob {
+    position: relative;
+    margin-left: 49px;
+    top: 4px;
+    display: none;
+    }
+    
     h2 {
     font-size: 22px;
-    line-height: 24px;
+    line-height: 27px;
     
     }
     
     h1 {
         font-size: 22px;
-        line-height: 24px;
+        line-height: 27px;
         position: relative
     }
 }
 
-@media screen and (min-width: 701px) and (max-width: 959px) { 
+@media screen and (min-width: 795px) and (max-width: 999px) { 
     
        .title{
     width: 90%;
@@ -84,20 +105,27 @@
     margin-left: 49px;
     }
     
+    .mob {
+    position: relative;
+    margin-left: 49px;
+    top: 4px;
+    display: none;
+    }
+    
     h2 {
     font-size: 28px;
-    line-height: 30px;
+    line-height: 33px;
     
     }
     
     h1 {
         font-size: 28px;
-        line-height: 30px;
+        line-height: 33px;
         position: relative
     }
 }
 
-@media screen and (min-width: 960px) and (max-width: 1000px) {
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
 
     
            .title{
@@ -109,22 +137,30 @@
     margin-left: 49px;
     }
     
+    .mob {
+    position: relative;
+    margin-left: 49px;
+    top: 4px;
+    display: none;
+    }
+    
     h2 {
-    font-size: 35px;
+    font-size: 32px;
     line-height: 37px;
     
     }
     
     h1 {
-        font-size: 35px;
+        font-size: 32px;
         line-height: 37px;
         position: relative
     }
+}
     
-@media screen and (min-width: 1001px) and (max-width: 1099px) {
+@media screen and (min-width: 1101px) and (max-width: 1400px) {
 
     
-           .title{
+    .title{
     width: 90%;
 }
     
@@ -133,25 +169,94 @@
     margin-left: 49px;
     }
     
+    .mob {
+    position: relative;
+    margin-left: 49px;
+    top: 4px;
+    display: none;
+        opacity: 0%;
+    }
+    
     h2 {
-    font-size: 30px;
-    line-height: 32px;
+    font-size: 35px;
+    line-height: 40px;
     
     }
     
     h1 {
-        font-size: 30px;
-        line-height: 32px;
+        font-size: 35px;
+        line-height: 40px;
         position: relative
     }
-
-
-@media screen and (min-width: 1100px) and (max-width: 1390px) { 
-    .title{
-    width: 1100px;
-}
     
 }
 
-@media screen and (min-width: 1900px) and (max-width: 10549px) {
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
+
+    
+    .title{
+    width: 90%;
 }
+    
+     .sub {
+    position: absolute;
+    margin-left: 49px;
+    }
+    
+    .mob {
+    position: relative;
+    margin-left: 49px;
+    top: 4px;
+    display: none;
+        opacity: 0%;
+    }
+    
+    h2 {
+    font-size: 40px;
+    line-height: 45px;
+    
+    }
+    
+    h1 {
+        font-size: 40px;
+        line-height: 45px;
+        position: relative
+    }
+    
+}
+
+@media screen and (min-width: 1601px) and (max-width: 3000px) {
+
+    
+    .title{
+    width: 90%;
+}
+    
+     .sub {
+    position: absolute;
+    margin-left: 49px;
+    }
+    
+    .mob {
+    position: relative;
+    margin-left: 49px;
+    top: 4px;
+    display: none;
+        opacity: 0%;
+    }
+    
+    h2 {
+    font-size: 45px;
+    line-height: 50px;
+    
+    }
+    
+    h1 {
+        font-size: 45px;
+        line-height: 50px;
+        position: relative
+    }
+    
+}
+    
+    

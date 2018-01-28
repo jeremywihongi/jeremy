@@ -223,7 +223,7 @@ header{
 
 .menu{
     margin-top: 50px;
-    margin-left: 0px;
+    margin-left: 25px;
 
 }
 
@@ -233,7 +233,7 @@ header{
 }
 
 .menu h3:nth-of-type(1){
-    padding-right: 35px;
+    padding-right: 50px;
 }
 
 .menu h3:nth-of-type(1){
@@ -241,17 +241,29 @@ header{
 }
 
 .menu h3:nth-of-type(2){
-    padding-right: 35px;
+    padding-right: 50px;
 }
 
 .menu h3:nth-of-type(2){
     float: left;
+
 }
 
 .menu h3:nth-of-type(3){
-    padding-right: 35px;
+    padding-right: 50px;
 }
 
+.menu h3:nth-of-type(3){
+    float: left;
+}
+
+.menu h3:nth-of-type(4){
+    padding-right: 50px;
+}
+
+.menu h3:nth-of-type(4){
+    float: left;
+}
 
 
 .menu indent{
@@ -264,6 +276,8 @@ header{
 
 .contentwrapper{
     padding: 25px 25px 25px 25px;
+    position: relative;
+    clear: both;
 }
 
 .main-carousel{

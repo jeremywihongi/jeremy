@@ -275,7 +275,7 @@ header{
 }
 
 .contentwrapper{
-    padding: 25px 25px 85px 25px;
+    padding: 25px 25px 25px 25px;
     position: relative;
     clear: both;
 }
@@ -306,6 +306,7 @@ header{
 }
 
 .footer{
+    padding-top: 100px;
     margin-left: 25px;
     padding-bottom: 25px;
     bottom: 25px;

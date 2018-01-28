@@ -233,7 +233,7 @@ header{
 }
 
 .menu h3:nth-of-type(1){
-    padding-right: 50px;
+    padding-right: 70px;
 }
 
 .menu h3:nth-of-type(1){
@@ -241,7 +241,7 @@ header{
 }
 
 .menu h3:nth-of-type(2){
-    padding-right: 50px;
+    padding-right: 70px;
 }
 
 .menu h3:nth-of-type(2){
@@ -250,7 +250,7 @@ header{
 }
 
 .menu h3:nth-of-type(3){
-    padding-right: 50px;
+    padding-right: 70px;
 }
 
 .menu h3:nth-of-type(3){
@@ -305,6 +305,22 @@ header{
     position: relative;
 }
 
+.footer{
+    margin-left: 25px;
+    padding-bottom: 25px;
+    bottom: 25px;
+    position: relative;
+}
+
+.footer1 a{
+    border: 2px solid #000;
+    border-color: #fff;
+    border-width: 0 0 0px;
+}
+
+.footer1 a:hover{
+    border-width: 0 0 2px;
+}
 
 
 html, body{

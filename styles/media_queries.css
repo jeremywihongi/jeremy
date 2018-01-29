@@ -1,4 +1,4 @@
-@media screen and (min-width: 0px) and (max-width: 420px) { 
+@media screen and (min-width: 0px) and (max-width: 412px) { 
     
     .title{
     width: 90%;
@@ -17,23 +17,21 @@
     top: 4px;
     }
     
-/*
-    h3 {
-        font-size: 15px;
-    line-height: 17px;
-    }
-*/
-    
     h2 {
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 23px;
     }
     
     h1 {
-        font-size: 22px;
-        line-height: 24px;
+        font-size: 20px;
+        line-height: 23px;
         position: relative
     }
+    
+    .menu h3:nth-of-type(1){
+    padding-right: 30px;
+}
+
     
     .contentwrapper{
     padding: 25px 25px 25px 25px;
@@ -41,7 +39,7 @@
     
 }
 
-@media screen and (min-width: 421px) and (max-width: 659px) { 
+@media screen and (min-width: 413px) and (max-width: 680px) { 
     
     .title{
     width: 90%;
@@ -71,6 +69,51 @@
         line-height: 24px;
         position: relative
     }
+    
+    .menu h3:nth-of-type(1){
+    padding-right: 30px;
+}
+    
+      .contentwrapper{
+    padding: 25px 25px 25px 25px;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 659px) { 
+    
+    .title{
+    width: 90%;
+}
+    
+     .sub {
+    position: relative;
+    margin-left: 49px;
+    top: 4px;
+    display: none;
+    }
+    
+    .mob {
+    position: relative;
+    margin-left: 49px;
+    top: 4px;
+    }
+    
+    h2 {
+    font-size: 22px;
+    line-height: 24px;
+    
+    }
+    
+    h1 {
+        font-size: 22px;
+        line-height: 24px;
+        position: relative
+    }
+    
+    .menu h3:nth-of-type(1){
+    padding-right: 60px;
+}
     
       .contentwrapper{
     padding: 25px 25px 25px 25px;

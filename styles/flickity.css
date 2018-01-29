@@ -47,7 +47,7 @@ http://flickity.metafizzy.co
 .flickity-prev-next-button {
   position: absolute;
   top: 50%;
-  width: 50%;
+  width: 40%;
   height: 100%;
   border: none;
   border-radius: 50%;
@@ -73,7 +73,7 @@ opacity: 0;}
 }
 
 .flickity-prev-next-button.previous { left: 10px;
-    cursor: -webkit-image-set(url(https://cdn.shopify.com/s/files/1/0866/5580/t/16/assets/5e69ba612e0eecd91476371d47a52b80.png) 1x,url(https://cdn.shopify.com/s/files/1/0866/5580/t/16/assets/5e69ba612e0eecd91476371d47a52b80.png) 2x) 0 12,auto;
+    cursor: -webkit-image-set(url(https://raw.githubusercontent.com/jeremywihongi/jeremy/gh-pages/images/arrowleft.png) 1x,url(https://raw.githubusercontent.com/jeremywihongi/jeremy/gh-pages/images/arrowleft.png) 2x) 0 12,auto;
      cursor: w-resize;
 }
 .flickity-prev-next-button.next { right: 10px;

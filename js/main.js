@@ -7,6 +7,7 @@ $('.main-carousel').flickity({
   cellAlign: 'left',
   contain: true,
   wrapAround: true,
+  imagesLoaded: true,
 //    adaptiveHeight: true
 });
     
@@ -15,6 +16,7 @@ $('.main-carousel').flickity({
   cellAlign: 'left',
   contain: true,
   wrapAround: true,
+  imagesLoaded: true,
 //        adaptiveHeight: true
 });
 

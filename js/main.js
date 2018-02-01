@@ -8,6 +8,8 @@ $('.main-carousel').flickity({
   contain: true,
   wrapAround: true,
   imagesLoaded: true,
+  autoPlay: true, 
+  bgLazyLoad: 1
 //    adaptiveHeight: true
 });
     
@@ -17,6 +19,8 @@ $('.main-carousel').flickity({
   contain: true,
   wrapAround: true,
   imagesLoaded: true,
+  autoPlay: true,
+  bgLazyLoad: 1
 //        adaptiveHeight: true
 });
 

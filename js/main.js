@@ -25,4 +25,3 @@ $('.main-carousel').flickity({
 });
 
 });
-
